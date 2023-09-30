@@ -8,7 +8,7 @@ export default {
     rollupOptions: {
       input: {
         main: new URL("./src/index.html", import.meta.url).pathname,
-        main: new URL("./src/imprint.html", import.meta.url).pathname,
+        imprint: new URL("./src/imprint.html", import.meta.url).pathname,
       },
     },
   },
