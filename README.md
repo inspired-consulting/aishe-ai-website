@@ -22,6 +22,10 @@ Build assets:
 npm run build
 ```
 
+## Deploy
+
+Just commit and push changes. GitHub actions will deploy them, see `.github/workflows/deploy-pages.yml`
+
 ## Initial setup
 
     npm install -D tailwindcss postcss autoprefixer vite vite-plugin-handlebars
